@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello, world!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="index.css" type="text/css" rel="stylesheet" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="space-between">
+        <div class="flex-col">
+          <div>Alice</div>
+          <textarea id="alice-message" placeholder="message"></textarea>
+          <textarea id="alice-base64" placeholder="base64" disabled="true"></textarea>
+        </div>
+        <textarea id="middle-base64" class="cipher-textarea" placeholder="encrypted base64" disabled="true"></textarea>
+        <div class="flex-col">
+          <div>Bob</div>
+          <textarea id="bob-message" placeholder="message"></textarea>
+          <textarea id="bob-base64" placeholder="base64" disabled="true"></textarea>
+        </div>
+      </div>
+      <div class="space-between">
+        <div class="flex-col">
+          <button id="alice-generate-button" class="button">
+            GENERATE KEY PAIR
+          </button>
+        </div>
+        <div class="flex-col">
+          <button id="bob-generate-button" class="button">
+            GENERATE KEY PAIR
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

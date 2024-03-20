@@ -1,0 +1,43 @@
+
+body {
+  background-color: hsl(0, 0%, 80%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+textarea {
+  height: 100px;
+  width: 400px;
+}
+
+#middle {
+  display: flex;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin: 16px;
+  background-color: hsl(196, 100%, 67%);
+  height: 32px;
+  width: 374px;
+  cursor: pointer;
+}
+
+.cipher-textarea {
+  align-self: center;
+  height: 160px;
+  width: 600px;
+}
